@@ -1,0 +1,844 @@
+body{
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+/****************************Header************************/
+.header{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/pascal-debrunner-RK5uYuSqXaA-unsplash.JPG);
+    background-size: cover;
+}
+
+
+/****************************Navigation Bar************************/
+.navbar{
+    width: 100%;
+    height: 90px;
+    padding-top: 30px;
+}
+
+.navbar ul li{
+    
+    display: inline-block;
+    color: white;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.navbar ul li:first-child{
+    padding-right: 300px;
+    font-size: 26px;
+    padding-left: 100px;
+}
+
+.navbar ul li button{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-color: white;
+    transition: 0.7s;
+}
+
+.navbar ul li button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+/****************************Header-Banner-Left************************/
+.bannertext{
+    width: 50%;
+    height: 550px;
+    padding: 150px 50px ;
+    color: white;
+    float: left;
+}
+
+.bannertext h1{
+    font-size: 64px;
+    margin: 0px 5px 10px;
+}
+
+.bannertext p{
+    font-size: 18px;
+    margin: 0px 5px 10px;
+    font-weight: lighter;
+}
+
+/****************************Header-Banner-Right************************/
+.bannerform{
+    width: 35%;
+    height: 600px;
+    margin-right: 100px;
+    margin-top: 60px;
+    float: right;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.bannerform h1{
+    padding: 60px 50px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.bannerform p{
+    padding-left: 55px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.bannerform input{
+    width: 364px;
+    height: 56px;
+    margin-left: 60px ;
+    margin-top: 20px;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.bannerform select{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 150px;
+    height: 56px;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.bannerform button{
+    width: 364px;
+    height: 56px;
+    margin-left: 60px ;
+    margin-top: 20px;
+    background-color: #4A86CC;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/****************************Content************************/
+
+.reconnect{
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+    
+}
+
+.reconnectimage{
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+}
+
+.reconnecttext{
+    width: 40%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.reconnecttext h1{
+    font-size: 40px;
+    color: rgb(25, 25, 51);
+}
+
+.reconnecttext p{
+    font-size: 18px;
+    color: black;
+    font-weight: lighter;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+/****************************OUR GALLERY************************/
+
+.ourgallery{
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 150px;
+    float: left;
+}
+
+
+.ogleft{
+    font-size: 20px;
+    color: #4A86CC;
+    width: 50%;
+    float: left;
+}
+
+.ogright{
+    width: 50%;
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+    float: right;
+    line-height: 30px;
+}
+
+.ogimages{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.ogimages img{
+    margin: 10px;
+}
+
+/****************************Focused************************/
+
+.focused{
+    width: 100%;
+    padding: 150px 50px;
+    float: left;
+}
+
+.focusedhead{
+    width: 50%;
+    float: left;
+    color: #4A86CC;
+    margin-bottom: 40px;
+}
+
+.focusedbtn{
+   padding-left: 100px;
+   float: right;
+   
+}
+
+
+.focusedbtn button{
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    border-color: blue;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.focusedbtn button:hover{
+    background-color: blue;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+/****************************Rooms************************/
+
+.rooms{
+    width: 100%;
+    padding-top: 50px;
+    float: left;
+    margin: 18px;
+}
+
+.rooms img{
+    width: 100%;
+}
+
+.rooms h1{
+    font-size: 18px;
+    color: #1A222C;
+}
+
+.rooms p{
+    font-size: 16px;
+    font-weight: lighter;
+    color:#1A222C ;
+    margin: 20px 0px 0px;
+}
+
+.rooms button{
+    width: 202px;
+    height: 48px;
+    padding: 12px 35px;
+    background-color: #4A86CC;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.minimalist{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.north{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.sidebar{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.gallery{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.standard{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+
+.carousel{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.sidebarform{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+
+.full{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+
+.caro{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+/****************************Perfect************************/
+
+
+.perfect{
+    width: 100%;
+}
+
+.left_cont{
+    width: 50%;
+    float: left;
+    padding: 0px 75px;
+    margin-top: 50px;
+}
+
+.left_cont h1{
+    font-size: 30px;
+    color: #1A222C;
+    padding: 0px 50px 0px 0px;
+}
+
+.left_cont p{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 20px 0px 10px;
+    line-height: 28px;
+}
+/**********************************Location*********************************/
+.fa-compass{
+    font-size: 38px;
+    margin-right: 15px;
+    color: blue;
+    margin-top: 10px;
+}
+
+.location{
+    border-bottom: solid 1px #1a222c9d;
+}
+
+.location h1{
+    font-size: 16px;
+    color: #1A222C;
+}
+
+.location p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+}
+/**********************************Enhanced*********************************/
+.enhanced{
+    border-bottom: solid 1px #1a222c9d;
+}
+
+.fa-broom{
+    font-size: 36px;
+    margin-right: 10px;
+    color: blue;
+    margin-top: 10px;
+}
+
+.enhanced h1{
+    font-size: 16px;
+    color: #1A222C;
+}
+
+.enhanced p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+}
+
+/**********************************Self-Check-In*********************************/
+
+.selfcheck{
+    border-bottom: solid 1px #1a222c9d;
+}
+
+.fa-key{
+    font-size: 36px;
+    margin-right: 10px;
+    color: blue;
+    margin-top: 10px;
+}
+
+.selfcheck h1{
+    font-size: 16px;
+    color: #1A222C;
+}
+
+.selfcheck p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+}
+
+/****************************Perfect Right_cont************************/
+
+.right_cont{
+    width: 50%;
+    float: right;
+    padding-right: 80px;
+}
+/****************************WINTER************************/
+
+.winter{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+
+/****************************WINTER LEFT************************/
+.winterleft{
+    width: 50%;   
+    float: left;
+    padding-left: 45px;
+}
+
+/****************************WINTER RIGHT************************/
+.winterright{
+    width: 50%;
+    float: right;
+    padding: 180px 60px;
+}
+
+.winterright h1{
+    font-size: 30px;
+    color: #1A222C;
+}
+
+.winterright p{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 30px 0px 10px;
+}
+
+/****************************SERVICES************************/
+
+.services{
+    width: 100%;
+    background-color: #719ed150;
+    float: left;
+    padding: 75px 70px 150px;
+}
+
+.services h1{
+    font-size: 40px;
+    color: #1A222C;
+    margin: 0px 5px 15px;
+}
+
+/****************************RESORT************************/
+
+.resort{
+    width: 270px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.fa-bed{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.resort h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.resort p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************RENTAL************************/
+
+.rental{
+    width: 270px;
+    float: left;
+    margin:0px 10px ;
+}
+
+.fa-person-booth{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.rental h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.rental p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************SCHOOL************************/
+
+.school{
+    width: 270px;
+    float: left;
+    margin:0px 10px ;
+}
+
+.fa-certificate{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.school h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.school p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************LIFT************************/
+
+.lift{
+    width: 270px;
+    float: left;
+    margin:0px 10px ;
+}
+
+.fa-ticket{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.lift h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.lift p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************SKATING************************/
+
+.skating{
+    width: 270px;
+    float: right;
+    margin:10px 10px ;
+}
+
+.fa-person-skating{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.skating h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.skating p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************SLEDDING************************/
+
+.sledding{
+    width: 270px;
+    float: right;
+    margin:10px 10px ;
+}
+
+.fa-sleigh{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.sledding h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.sledding p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************SNOW************************/
+
+.snow{
+    width: 270px;
+    float: right;
+    margin:10px 10px ;
+}
+
+.fa-snowflake{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.snow h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.snow p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+
+/****************************CROSS************************/
+
+.cross{
+    width: 270px;
+    float: right;
+    margin:10px 10px ;
+}
+
+.fa-person-skiing-nordic{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.cross h1{
+    font-size: 18px;
+    color: #394553;
+    margin: 0px 5px 10px;
+    
+}
+
+.cross p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #1A222C;
+    margin: 0px 5px 10px;
+}
+/****************************LOOKING************************/
+
+.looking{
+    width: 100%;
+    float: left;
+}
+
+.leftimg{
+    width: 45%;
+    float: left;
+}
+
+.righttext{
+    width: 50%;
+    float: left;
+    padding: 120px 90px;
+}
+
+.righttext h1{
+    font-size: 40px;
+    color: #1A222C;
+    margin-bottom: 80px;
+}
+
+.righttext h2{
+    font-size: 16px;
+    color: #1A222C;
+    padding: 10px 10px 10px 0px;
+}
+
+/****************************CONTACT US************************/
+
+.contus{
+    width: 100%;
+    float: left;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+
+.contact{
+    width: 50%;
+    float: left;
+    padding: 40px 40px;
+}
+
+.contact h1{
+    padding: 10px 0px;
+}
+
+.contact h2{
+    padding: 10px 0px;
+}
+
+.contact p{
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #1A222C;
+    font-weight: lighter;
+}
+
+.contact .fa-brands{
+    font-size: 38px;
+}
+
+.signup{
+    width: 50%;
+    float: left;
+    padding: 50px 30px;
+}
+
+.signup h1 {
+    font-size: 32px;
+    color: #4A86CC;
+    padding: 10px 0px;
+}
+
+.signup p{
+    font-size: 16px;
+    color: #1A222C;
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+.signup input{
+    width: 225px;
+    height: 56px;
+    text-align: center;
+    margin: 5px 20px 5px 0px;
+    border-radius: 10px;
+}
+
+.signup button{
+    width: 225px;
+    height: 56px;
+    margin: 5px 20px 5px 0px;
+    border-radius: 35px;
+    background-color: #4A86CC;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.credit{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+}
+.credit h1{
+    font-size: 18px;
+    font-weight: lighter;
+}
